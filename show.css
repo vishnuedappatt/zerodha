@@ -1,0 +1,41 @@
+button
+{
+    background: coral;
+    color: #000;
+}
+#para1{
+    color: blueviolet;
+    background-color: beige;
+}
+#para2{
+    color: yellow;
+    background-color: rgb(28, 242, 242);
+}
+.we
+{
+    color: rgb(25, 215, 152);
+}
+.well{
+    background-color: #d4b2df;
+    width: 290px;
+    height: 230px;
+    font-style: italic;
+    margin-top: 230px;
+    margin-left: 500px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border: 2px solid;
+    border-color: #2be276;
+
+}
+.are
+{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background-color: black;
+    color: antiquewhite;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+}

@@ -1,0 +1,24 @@
+body
+{
+   margin: 0%;
+}
+.head
+{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(255, 0, 0);
+}
+.logo
+{    margin-left: 150px;
+    margin-top: 10px;
+    float: left;
+}
+.line
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-right: 70px;
+    float: left;
+  
+}

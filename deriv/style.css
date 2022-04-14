@@ -1,0 +1,83 @@
+*{
+     overflow-x:none ;
+}
+body{
+    overflow-x:none;
+}
+
+.navbar{
+   
+    height: 90px;
+    position: fixed;
+    background-color: black;
+    
+}
+.image-1{
+    width: 189px;
+    margin-left: 200px;
+    margin-bottom: 16px;
+    position: absolute;
+}
+.image-2{
+    margin-bottom: 10px;
+    margin-left: 390px;
+    position:absolute;
+    margin-top: 5px;
+
+}
+@media screen and (max-width:1030px) {
+    .navbar{
+        background-color:black;
+        height: 65px;
+    }
+    .image-1{
+        width: 135px;
+        margin-left: 0%;
+            display: inline-block;
+            overflow: hidden;
+        }
+       
+        
+        .main{
+            height: 90vh;
+            
+        }
+   
+        
+}
+.main{
+
+    background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+    background-size: cover;
+    height: 600px;
+    background-color: blue;
+}
+
+.text1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    color: white;
+   font-weight: bold;
+   margin-top: 50px;
+   font-size: 60px;
+    
+}
+@media  (max-width: 992px){
+
+    .text1 {
+        font: size 1vw;
+        line-height: 60px;
+    }
+    .text2{
+        
+        font-size: 1vw;
+    }
+}
+
+
+.text2{
+    color:rgb(190, 183, 183) ;
+
+}

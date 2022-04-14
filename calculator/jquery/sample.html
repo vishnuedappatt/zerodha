@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id=bg style="width: 100px;height: 100px;background-color: aqua;">
+    </div>
+    <input type="text" id="tex">
+    <label id="error" style="display: none;">Enter minimum 4 charectors</label>
+    <input type="text" id="">
+    <button id="btn">click me</button>
+    
+</body>
+<script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+          //  alert("danger")
+         $ ("#bg").toggle(3000)
+        })
+        $("#btn").mouseenter(function(){
+            $(this).css({"background":"blue"})
+        })
+        $("#btn").mouseleave(function(){
+            $(this).css({"background":"red"})
+        })
+        $("#btn").mouseout(function(){
+            $(this).css({"background":"black"})
+        })
+        $("#tex").blur(function(){
+            var text=$(this).val()
+            if(text.length<4){
+                alert("enter less numbers")
+                $("#error").show()
+            }else{
+                $("#error").hide()
+            }
+             
+            
+           
+        })
+      
+        
+    })
+</script>
+</html>

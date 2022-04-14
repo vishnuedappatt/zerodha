@@ -1,0 +1,38 @@
+
+.header
+{
+    background-color: #ff0000;
+    width: 100%;
+    height: 130px;
+  
+}
+body{
+    margin: 0;
+}
+.logo
+{
+  padding-top: 10px;
+  padding-left: 103px;
+  float:left;
+
+}
+.mode{
+  border: none;
+  background-color: rgb(8, 5, 1);
+
+}
+.mod1{
+    color: #fffffff2;
+    text-decoration: none;
+ 
+  margin-top: 96px;
+  float: left;
+  font-family: "DM Sans",sans-serif;
+  font-size: 22px;
+  width: 100px;
+ 
+}
+.mod1{
+    margin-top: 95px;
+    
+}
